@@ -67,6 +67,7 @@ struct Voxel32 {
         /** 32-bit index in a color palette. */
         u32 index;
     };
+    pos_t normal;
 };
 
 // NUMERIC UTILITIES ===================================================================================================

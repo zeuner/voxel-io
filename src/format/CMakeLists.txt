@@ -13,6 +13,7 @@ add_library(voxelio-format STATIC
     vobj.cpp
     vox.cpp
     xyzrgb.cpp
+    xyzrgbn.cpp
     "${INCLUDE_FORMAT_DIR}/binvox.hpp"
     "${INCLUDE_FORMAT_DIR}/cubeworld.hpp"
     "${INCLUDE_FORMAT_DIR}/ply.hpp"
@@ -24,7 +25,8 @@ add_library(voxelio-format STATIC
     "${INCLUDE_FORMAT_DIR}/vl32.hpp"
     "${INCLUDE_FORMAT_DIR}/vobj.hpp"
     "${INCLUDE_FORMAT_DIR}/vox.hpp"
-    "${INCLUDE_FORMAT_DIR}/xyzrgb.hpp")
+    "${INCLUDE_FORMAT_DIR}/xyzrgb.hpp"
+    "${INCLUDE_FORMAT_DIR}/xyzrgbn.hpp")
 
 target_include_directories(voxelio-format PUBLIC "${INCLUDE_DIR}")
 target_link_libraries(voxelio-format INTERFACE voxelio)
